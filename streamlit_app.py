@@ -44,8 +44,8 @@ project_links = {
     "Project 2": "https://github.com/ashoksdialect/tradersdialect",
 }
 
-#for project, link in project_links.items():
-#    st.markdown(f"[{project}]({link})")
+for project, link in project_links.items():
+    st.markdown(f"[{project}]({link})")
 
 # Footer
 st.markdown(
